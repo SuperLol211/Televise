@@ -61,7 +61,7 @@ header {
 }
 
 .site-content {
-	padding-top: 100px;
+	padding-top: 6%;
 }
 
 /*ul {
@@ -124,8 +124,8 @@ li a:hover {
 }
 
 .backgroundTV {
-	height: 220px;
-	width: 630px;
+	height: 35%;
+	width: 46.2%;
 	background-color: #3F2457;
 	margin-left: auto;
 	margin-right: auto;
@@ -138,12 +138,19 @@ li a:hover {
 }
 
 .backgroundchannel {
-	height: 800px;
-	width: 1000px;
+	height: 115%;
+	width: 75%;
 	background-color: #3F2457;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1%;
+}
+
+.backgroundpage {
+	width: 100%;
+	background-color: #281738;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .channelContainer {

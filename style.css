@@ -16,6 +16,11 @@ body {
 	margin: 0px;
 }
 
+footer {
+	background-color: #3F2457;
+	height: 18%
+}
+
 h1 {
 	font-family: "Lato-Bold";
 }
@@ -124,8 +129,8 @@ li a:hover {
 }
 
 .backgroundTV {
-	height: 35%;
-	width: 46.2%;
+	height: 76%;
+	width: 46.9%;
 	background-color: #3F2457;
 	margin-left: auto;
 	margin-right: auto;
@@ -160,10 +165,21 @@ li a:hover {
 }
 
 .youmaylike {
-	height: 175px;
-	width: 330px;
+	height: 20%;
+	width: 33%;
 	background-color: #3A2151;
 	margin-right: auto;
 	margin-top: 1%;
 	z-index: 5;
+}
+
+.channeltype {
+	height: 20%;
+	width: 33%;
+}
+
+.channellogo {
+	float: right;
+	margin-left: auto;
+	margin-bottom: auto;
 }

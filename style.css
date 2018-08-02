@@ -17,7 +17,7 @@ body {
 }
 
 footer {
-	background-color: #3F2457;
+	background-color: #7030A0;
 	height: 18%
 }
 
@@ -52,21 +52,25 @@ p {
 header {
 	position: fixed;
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
 	background-color: #7030A0;
 	z-index: 10;
+	height: auto;
 }
 
 #wrapper {
     width: 960px;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: auto;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
 }
 
 .site-content {
-	padding-top: 6%;
+	padding-top: 80;
 }
 
 /*ul {
@@ -94,7 +98,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #7030A0;
+	width: 100%;
 }
 
 li {
@@ -112,7 +117,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #622a8c;
 }
 
 .center {
@@ -199,4 +204,24 @@ li a:hover {
     margin-right: auto;
 	padding-top: 1%;
     width: 100%;
+}
+
+.wrapper {
+    width: 960px;
+	min-width: 900px;
+    margin: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.wrapperheader {
+	width: 960px;
+	min-width: 900px;
+    margin: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
 }
